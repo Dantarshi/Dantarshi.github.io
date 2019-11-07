@@ -1,11 +1,11 @@
 # Site settings
 author: Ice Asortse
-title: 
+title: Feature Scaling in Python
 header-img: img/home-bg.png
 email: dantarshi@gmail.com
 copyright_name: Ice Asortse
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Importance of Scaling data 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Dantarshi
