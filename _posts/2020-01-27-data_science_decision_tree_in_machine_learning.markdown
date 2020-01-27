@@ -1,12 +1,12 @@
 ---
 layout: post
-title:      "Data Science: Decision Tree in Machine Learning"
+title:      "Data Science: Decision Tree in machine learning."
 date:       2020-01-27 16:57:21 -0500
 permalink:  data_science_decision_tree_in_machine_learning
 ---
 
 
-Data Science: Decision Tree in machine learning.
+
 What is a Decision tree? 
 Generally, we can define decision tree as a decision supporting tool that uses a tree-like model of decisions with regards to the possibility of consequences, including resource cost, utility and outcomes. It is one of the many ways to visualize algorithm that are based on conditions and statements.
 Machine Learning with Decision tree?
