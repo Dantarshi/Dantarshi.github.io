@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Data Science: Decision Tree in Machine Learning"
-date:       2020-01-27 21:57:19 +0000
+date:       2020-01-27 16:57:21 -0500
 permalink:  data_science_decision_tree_in_machine_learning
 ---
 
