@@ -1,16 +1,16 @@
 ---
 layout: post
 title:      "Feature Scaling in python."
-date:       2019-11-07 23:13:41 +0000
+date:       2019-11-07 18:13:42 -0500
 permalink:  feature_scaling_in_python
 ---
 
 
-Data Science: Feature Scaling in python.
+## Data Science: Feature Scaling in python.
 
 In our dynamic and ever-changing world of technology, data is like the lead artist. It sings beautiful songs, tell vivid stories and paint detail pictures based on factual truth embedded in numbers.  Like the old saying goes “Men lie, Women lie but numbers don’t lie”. In other words, numbers don’t change like the weather, number one is always number one and has been since the beginning of time however, data cannot just sing rhythmic melodies and draw colorful roadmap that points in the direction of the next big thing, you will have to tune it to get the best out of it, just like guitar and other musical instruments.
 
-Data comes in different types, forms and shapes like apples and grapes, and when they do, its your job to **scale** them to fit the structure of the task at hand just like your music. 
+Data comes in different types, forms and shapes like apples and grapes, and when they do, its your job to scale them to fit the structure of the task at hand just like your music. 
 
 So, let’s start with the question “What are features and what is Scaling”?
 
@@ -42,7 +42,7 @@ The most widely used scaling method is Standardization or StandardScaler.
 
 The standardization method emphasizes on centering the data then dividing by the standard deviation so that the variable will have a standard deviation of one:
 
-Xstd  = ( X - ¯X )/ Sx
+X_{std}  = ( X - ¯X )/ Sx
 
 Xstd  will have mean µ = 0 and Sx = 1
 
