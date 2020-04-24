@@ -42,7 +42,7 @@ The most widely used scaling method is Standardization or StandardScaler.
 
 The standardization method emphasizes on centering the data then dividing by the standard deviation so that the variable will have a standard deviation of one:
 
-$X_{std} =\frac{X - \bar{X}}{Sx}$
+$$X_{std} =\frac{X - \bar{X}}{Sx}$$
 
 Xstd  will have mean µ = 0 and $Sx$ = 1
 
@@ -66,7 +66,7 @@ This is achieved by dividing each value by its magnitude in n-dimensional space 
 
 Let’s say the features are x, y, z. the scaled value for x will look like this:
 
-$\frac{x_{i}}{\sqrt{\left( {x_{i}}^{2} + {y_{i}}^{2} + {z_{i}}^{2} \right)}}$
+$$\frac{x_{i}}{\sqrt{\left( {x_{i}}^{2} + {y_{i}}^{2} + {z_{i}}^{2} \right)}}$$
 
 
 Now the points lie between 0 and 1.
@@ -79,7 +79,7 @@ It uses the minimum and maximum values for scaling so it is highly sensitive to 
 
 Let’s take a look at the formula for calculating each feature:
 
-$\frac{{x_i} - min(x)}{max(x)-min(x)}$
+$$\frac{{x_i} - min(x)}{max(x)-min(x)}$$
 
 
 Let’s take a look at how it looks in python using sklearn:
@@ -99,7 +99,7 @@ In this method, the focus is more on the parts that have the most data, because 
 Let’s look at the formula for robust scaler:
 
 
-$\frac{{x_i} - {Q_1}(x)}{{Q_3}(x) - {Q_1}(x)}$
+$$\frac{{x_i} - {Q_1}(x)}{{Q_3}(x) - {Q_1}(x)}$$
 
 
 And this goes for every feature.
