@@ -42,9 +42,10 @@ The most widely used scaling method is Standardization or StandardScaler.
 
 The standardization method emphasizes on centering the data then dividing by the standard deviation so that the variable will have a standard deviation of one:
 
-X_{std}  = ( X - ¯X )/ Sx
+$X_{std} =\frac{X - \bar{X}}{Sx}$
 
-Xstd  will have mean µ = 0 and Sx = 1
+Xstd  will have mean µ = 0 and $Sx$ = 1
+
 
 
 So, the coefficients of the predictors are in standard deviation units which allows direct comparison of magnitudes of different features.
@@ -65,7 +66,8 @@ This is achieved by dividing each value by its magnitude in n-dimensional space 
 
 Let’s say the features are x, y, z. the scaled value for x will look like this:
 
-x_i/√(x_i^2+y_i^2+z_i^2 )
+$\frac{x_{i}}{\sqrt{\left( {x_{i}}^{2} + {y_{i}}^{2} + {z_{i}}^{2} \right)}}$
+
 
 Now the points lie between 0 and 1.
 
@@ -77,7 +79,8 @@ It uses the minimum and maximum values for scaling so it is highly sensitive to 
 
 Let’s take a look at the formula for calculating each feature:
 
-((x_i-min⁡(x) ))/((max⁡(x)-min⁡(x) ) )
+$\frac{{x_i} - min(x)}{max(x)-min(x)}$
+
 
 Let’s take a look at how it looks in python using sklearn:
 
@@ -94,7 +97,9 @@ In this method, the focus is more on the parts that have the most data, because 
 
 Let’s look at the formula for robust scaler:
 
-(x_i-Q_1 (x))/(Q_3 (x)-Q_1 (x) )
+
+$\frac{{x_i} - {Q_1}(x)}{{Q_3}(x) - {Q_1}(x)}$
+
 
 And this goes for every feature.
 Let’s see how this looks like in python:
@@ -115,5 +120,4 @@ For the Min-Max scaling, the normal distributions are between 0 and 1, and are k
 Conclusion 
 These methods of data scaling are very instrumental to the preprocessing and preparation of data to be analyzed and visualized. When this is done, your data will have a better chance of vividly telling stories of the past and also painting a colorful roadmap to the next big thing by offering insightful details and trends that might be left out or missed during the process of preparing the data. 
 There are other processes involve in processing and preparing data that are not mentioned in the post since this post is restricted to the importance of scaling and some of the methods used in scaling data.
-
 
