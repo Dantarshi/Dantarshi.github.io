@@ -54,7 +54,7 @@ StandardScaler transforms the data in such a way that the distribution has the m
 
 We can see this in python using StandardScaler from Sklearn, the difference before standard scaler after standard scaler.
 
- 
+ ![png](StandardScaler.png)
  
 Before Standard Scaling and After Standard Scaling
 
@@ -84,6 +84,7 @@ $\frac{{x_i} - min(x)}{max(x)-min(x)}$
 
 Let’s take a look at how it looks in python using sklearn:
 
+![png](MinMaxScaler.png)
  
 Before Min-Max Scaling and After Min-Max Scaling
 
@@ -104,12 +105,14 @@ $\frac{{x_i} - {Q_1}(x)}{{Q_3}(x) - {Q_1}(x)}$
 And this goes for every feature.
 Let’s see how this looks like in python:
 
+![png](RobustScaler.png)
  
 Before Robust Scaling and After Robust Scaling
 
 As we can see, the outliers are left out while the distributions are within the same scale. Another major difference between min-max scaler and robust scaler beside the use of min, max for min-max scaler and quartiles for robust scaler is the distribution representation. 
 Let’s go back to python to graphically see this difference.
 
+ ![png](RobustMinMax.png)
  
 Difference between “After Robust Scaling and After Min-Max Scaling
 
