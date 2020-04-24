@@ -99,7 +99,7 @@ In this method, the focus is more on the parts that have the most data, because 
 Let’s look at the formula for robust scaler:
 
 
-$$\frac{{x_i} - {Q_1}(x)}{{Q_3}(x) - {Q_1}(x)}$$
+
 
 
 And this goes for every feature.
