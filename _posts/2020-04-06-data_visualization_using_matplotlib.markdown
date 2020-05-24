@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Data Visualization Using Matplotlib"
-date:       2020-04-06 15:52:30 +0000
+date:       2020-04-06 11:52:30 -0400
 permalink:  data_visualization_using_matplotlib
 ---
 
@@ -65,7 +65,7 @@ As we can see from the code, we used only matplotlib, the scatter plot shows poi
 
 Let’s take another look at a basic histogram.
 
-
+[picture]
 
  
 The histogram shows the frequency distribution, we got 200 random numbers between 0 and 30 and used the object-oriented syntax to plot the bar chart.
